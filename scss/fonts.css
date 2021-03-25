@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Gilroy semibold';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url(../fonts/gilroy-bold.woff2), url(../fonts/Gilroy-Bold.woff);
+}
+
+@font-face {
+  font-family: 'Gilroy bold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/gilroy-semibold.woff2), url(../fonts/Gilroy-SemiBold.woff);
+}
+
+@font-face {
+  font-family: 'Gilroy lightitalic';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/gilroy-lightitalic.woff2), url(../fonts/Gilroy-LightItalic.woff);
+}
+
+@font-face {
+  font-family: 'Gilroy medium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/gilroy-medium.woff2), url(../fonts/Gilroy-Medium.woff);
+}
+
+@font-face {
+  font-family: 'Gilroy regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(../fonts/gilroy-regular.woff2), url(../fonts/Gilroy-Regular.woff);
+}
+/*# sourceMappingURL=fonts.css.map */
