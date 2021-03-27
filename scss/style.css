@@ -1783,7 +1783,6 @@ body {
 }
 
 .main .support__material .support__block a {
-  padding: 0 30px;
   margin-top: 20px;
   font-family: Gilroy medium;
   font-size: calc(18px + 2 * ((100vw - 320px) / 1046));
