@@ -300,58 +300,59 @@
                     <button class="submit-link">Оставить заявку</button>
                 </article>
             </div>
-            <!-- <div class="form hidden">
-        <form action="#" method="POST">
-            <div class="form__body">
-                <h2>Автопомощь</h2>
-                <hr>
-                <h3>Заявка</h3>
-                <p class="application-text">Отправьте нам заявку о том, что готовы помочь. <br> Когда нам будет необходима помощь в <br> транспортировке, мы позвоним вам.</p>
-                <input class="input input-fio field" maxlength="56" autocomplete="off" placeholder="Фамилия и имя" type="text" name="fio" id="fio">
-                <input class="input input-tel field" autocomplete="off" placeholder="Номер телефона" type="tel" name="tel" id="tel">
-                <p class="obligatory-field">Обязательное поле для заполнения</p>
-                <h4>Выберите удобное время, когда вы сможете нам помочь </h4>
-                <div>
-                    <input class="input-date" placeholder="ldfs" type="date">
-                    <input class="input-time" type="time">
-                    <div class="add-input">
-                        <div class="ellipse"></div>
-                        <p class="add-time-date">Добавте дату и время</p>
+            <div class="form__auto hidden">
+                <form action="#" method="POST">
+                    <div class="form__body">
+                        <h2>Автопомощь</h2>
+                        <hr>
+                        <article>
+                            <h3>Заявка</h3>
+                            <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                        </article>
+                        <input class="form__input input-fio field" maxlength="56" autocomplete="off" placeholder="Фамилия и имя" type="text" name="fio" id="fio">
+                        <input class="form__input input-tel field" autocomplete="off" placeholder="Номер телефона" type="tel" name="tel" id="tel">
+                        <p class="obligatory-field">Обязательное поле для заполнения</p>
+                        <div class="form__date">
+                            <h4>Выберите удобное время, когда вы сможете нам помочь </h4>
+                            <div class="form__date-time">
+                                <input class="input-date date-time" type="date">
+                                <input class="input-time date-time" type="time">
+                            </div>
+                            <p class="add__date-time">Добавте дату и время</p>
+                        </div>
+                        <div class="form__item">
+                            <input class="input-weekday" id="weekday" type="checkbox">
+                            <label for="weekday" class="label-item">В любой будний день</label>
+                        </div>
+                        <div class="form__item">
+                            <input class="input-dayoff" id="dayoff" type="checkbox">
+                            <label for="dayoff" class="label-item">В любой выходной день</label>
+                        </div>
+                        <h4 class="choose-help">Выберите вид автопомощи</h4>
+                        <div class="form__item">
+                            <input class="check-food-delivery" type="checkbox" id="food-delivery">
+                            <label for="food-delivery" class="label-item">Доставка еды, медикоментов и других небольших вещей</label>
+                        </div>
+                        <div class="form__item">
+                            <input class="check-hay-delivery" type="checkbox" id="hay-delivery">
+                            <label for="hay-delivery" class="label-item">Доставка сена или соломы, строительных материалов <br> для будок и других крупногаборитных вещей</label>
+                        </div>
+                        <div class="form__item">
+                            <input class="check-transport-cats" type="checkbox" id="transport-cats">
+                            <label for="transport-cats" class="label-item">Транспортировка небольших собак и котов</label>
+                        </div>
+                        <div class="form__item">
+                            <input class="check-transport-dogs" type="checkbox" id="transport-dogs">
+                            <label for="transport-dogs" class="label-item">Транспортировка больших собак</label>
+                        </div>
+                        <textarea class="textarea" placeholder="Замечание" name="" id="" cols="30" rows="10"></textarea>
+                        <div class="button">
+                            <button type="submit" class="btn-submit submit">Оставить заявку</button>
+                            <button type="reset" class="btn-reset">Отмена</button>
+                        </div>
                     </div>
-                </div>
-                <div class="check">
-                    <input class="input-weekday" id="weekday" type="checkbox">
-                    <label for="weekday" class="label-item">В любой будний день</label>
-                </div>
-                <div class="check">
-                    <input class="input-dayoff" id="dayoff" type="checkbox">
-                    <label for="dayoff" class="label-item">В любой выходной день</label>
-                </div>
-                <h4 class="choose-help">Выберите вид автопомощи</h4>
-                <div class="check">
-                    <input class="check-food-delivery" type="checkbox" id="food-delivery">
-                    <label for="food-delivery" class="label-item">Доставка еды, медикоментов и других небольших вещей</label>
-                </div>
-                <div class="check">
-                    <input class="check-hay-delivery" type="checkbox" id="hay-delivery">
-                    <label for="hay-delivery" class="label-item">Доставка сена или соломы, строительных материалов <br> для будок и других крупногаборитных вещей</label>
-                </div>
-                <div class="check">
-                    <input class="check-transport-cats" type="checkbox" id="transport-cats">
-                    <label for="transport-cats" class="label-item">Транспортировка небольших собак и котов</label>
-                </div>
-                <div class="check">
-                    <input class="check-transport-dogs" type="checkbox" id="transport-dogs">
-                    <label for="transport-dogs" class="label-item">Транспортировка больших собак</label>
-                </div>
-                <textarea class="textarea" placeholder="Замечание" name="" id="" cols="30" rows="10"></textarea>
-                <div class="button">
-                    <button type="submit" class="btn-submit submit">Оставить заявку <span class="tooltip top__tooltip">Кнопка недоступна. <br> Заполните обязательные поля формы</span></button>
-                    <button type="reset" class="btn-reset">Отмена</button>
-                </div>
+                </form>
             </div>
-        </form>
-    </div> -->
         </section>
         <section class="volunteering">
             <a id="volunteering" href="#"></a>

@@ -168,7 +168,6 @@
             }
             ul.active {
                 top: 0;
-            
             }
         }
         &-menu.active {
@@ -645,6 +644,33 @@
                     width: 100%;
                     article {
                         max-width: 300px;
+                    }
+                }
+            }
+        }
+        .auto__assistance {
+            .form__auto {
+                .form__date {
+                    .form__date-time {
+                        flex-direction: column;
+                        .date-time {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .main {
+        .auto__assistance {
+            .form {
+                .button {
+                    flex-direction: column;
+                    .btn-submit {
+                        margin-bottom: 20px;
                     }
                 }
             }

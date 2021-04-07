@@ -1257,5 +1257,26 @@
   .main .volunteering .volunteering__container .volunteering__content article {
     max-width: 300px;
   }
+  .main .auto__assistance .form__auto .form__date .form__date-time {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .auto__assistance .form__auto .form__date .form__date-time .date-time {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .main .auto__assistance .form .button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .auto__assistance .form .button .btn-submit {
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=styleMedia.css.map */
