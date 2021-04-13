@@ -17,3 +17,10 @@ btnSubmit.addEventListener('click', () => {
     formAuto.classList.toggle('hidden');
     body.classList.toggle('luck');
 })
+
+formAuto.addEventListener('click', (e) => {
+    const target = e.target;
+    if (!target.closest('.form__body')) {
+        formAuto.classList.add('hidden');
+    }
+})
